@@ -1,0 +1,155 @@
+﻿.fixFloat {
+    clear:both; /*é usado para cancelar o float.*/
+}
+body{
+    margin: auto;
+    width: 960px;
+    background-color: #DDD;
+    padding: 0px;
+    background: url(fundo.gif) repeat-x;
+    overflow-y: scroll; /*obriga colocar a barra de rolagem*/
+}
+#cab img{
+    float:left;
+
+}
+#social {
+    float: right;
+    margin-top: 25px; 
+    
+}
+#social {
+    
+    height: 20px;
+     
+}
+#menu{
+    float:left;
+    margin-top: 93px;
+    width: 453px;
+}
+#menu ul {
+    list-style:none;
+    padding: 0px;
+    margin:0px;
+    background: linear-gradient(to bottom, #ddd, #666);
+
+}
+#menu li{
+    height: 57px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border-right: 1px solid #062;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+#menu li:hover{
+    background-color: red;
+}
+/*Aqui formatação do banner 1/2/3*/
+#banner {
+    margin-top: 15px;
+}
+#banner img {
+    width:960px;
+}
+#slider {
+    width: 960px;
+    height: 384px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#slider img{
+     width: 960px;
+     height: 384px;
+}
+#b1 {
+position:relative;
+left:0px;
+top: 0px;
+}
+#b2 {
+position:relative;
+left: 0px;
+top: -388px;
+}
+#b3 {
+    position: relative;
+    left: 0px;
+    top: -776px;
+}
+#lateral{
+    float:right;
+    background: #ddd;
+    width: 190px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#lateral h1 {
+    font-size: 15px;
+    text-align: center;
+    border-bottom: #000 solid 1px;
+    margin-top: -5px;
+}
+#lateral h2 {
+    font-size: 15px;
+}
+#lateral p {
+    text-align: justify;
+ }
+#main {
+    background:#eee;
+    width:730px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#main h1{
+    font-size: 20pt;
+    border-bottom: #000 solid 1px; /*linha continuar horizontal*/
+
+}
+#main h1{
+    font-size: 15px;
+
+}
+#main p{
+    text-align:justify;
+}
+footer{
+    color:#888;
+    border: #000 solid 1px;
+    padding-bottom: 15px;
+}
+footer p{
+    display:inline-block;
+    width: 316px;
+    text-align: center;
+}
+/*pagina modulo*/
+details {
+    margin-top: 30px;
+    cursor: pointer;
+}
+datalist p {
+    font-size: 20px;
+}
+summary{
+    height:20px;
+    background: linear-gradient(to bottom, #eee, #999);
+     font-size:12pt;
+     font-weight: bold;
+     padding: 10px 0px 10px 0px;
+}
+
+details[open] summary{ /*essa função muda a cor da fonte e da marrinha*/
+    color: #fff;
+    background: linear-gradient(to bottom, #e00, #900);
+}
+details[open] {
+    background:#e3dbd2;
+}
